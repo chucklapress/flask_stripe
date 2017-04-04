@@ -20,7 +20,7 @@ def charge():
     amount = 1300
 
     customer = stripe.Customer.create(
-        email='customer@example.com',
+        email='customer@wherethetruck.com',
         source=request.form['stripeToken']
     )
 
@@ -28,7 +28,7 @@ def charge():
         customer=customer.id,
         amount=amount,
         currency='usd',
-        description='Flask Charge'
+        description='Where the Truck'
     )
 
     return render_template('charge.html', amount=amount)
