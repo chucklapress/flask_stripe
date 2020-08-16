@@ -1,6 +1,6 @@
 appdirs==1.4.3
 click==6.7
-Flask==0.12.3
+Flask==1.0.0
 itsdangerous==0.24
 Jinja2==2.10.1
 MarkupSafe==1.1.1
@@ -9,4 +9,4 @@ pyparsing==2.2.0
 requests==2.20
 six==1.10.0
 stripe==1.19.1
-Werkzeug==0.12.1
+Werkzeug==0.15.3
