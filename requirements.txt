@@ -9,4 +9,4 @@ pyparsing==2.2.0
 requests==2.20
 six==1.10.0
 stripe==1.19.1
-Werkzeug==0.12.1
+Werkzeug==0.15.3
